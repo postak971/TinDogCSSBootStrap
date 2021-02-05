@@ -1,0 +1,154 @@
+body{
+    font-family: 'Montserrat';
+    text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6, p{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+
+}
+
+p{
+    color: #8f8f8f;
+}
+
+.big-heading{
+    color: white;
+    font-size: 3.5rem;
+    line-height: 1.5;    
+
+}
+.section-heading{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+.container-fluid{
+    padding: 5% 15%;
+}
+
+.navbar{
+    /* 0 to the top, 0 to the left and right and 4.5 bottom */
+    padding: 0 0 4.5rem; 
+}
+.navbar-brand{
+    font-family: ubuntu;
+    font-size: 2rem;
+    font-weight: bold;
+    
+}
+.nav-item{
+    padding: 0 18px;
+}
+.nav-link{
+    font-size: 1.5rem;
+    font-weight:lighter;
+}
+/* title section */
+#title{
+    background-color: #ff4c68;
+    color: #fff;
+    text-align: left;
+}
+
+#title .container-fluid{
+    padding: 2% 15% 5%;
+}
+/* Download buttons */
+.download-btn{
+    margin: 5% 3% 5% 0%;
+
+}
+
+
+.title-image{
+    transform: rotate(20deg);
+    width: 60%;
+    position: absolute;
+   
+}
+/* title image to original position and shape */
+@media(max-width: 1028px){
+    .title-image{
+        position: static;
+        transform: rotate(0);
+    }
+    /* center align the title section in smaller screen */
+    #title{
+        text-align: center;
+    }
+}
+/* features section */
+#features{
+    background-color: #fff;
+    position: relative;
+    z-index: 1;
+}
+.feature-title{
+    font-size: 1.5rem;
+}
+.features-element{
+    padding: 5%;
+    
+}
+.fas-icon{
+    color: #ef8172;
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+.fas-icon:hover{
+    color: #ff4c68;
+}
+
+/* testimonials */
+#testimonials{ 
+    background-color: #ef8172;
+    color: #fff
+}
+.testimonial-text{
+font-size: 3rem;
+line-height: 1.5;
+}
+/* Apply padding only on testimonials and not on the navigation buttons. */
+
+.testimonials-image{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+#press{
+    background-color:#ef8172;
+    padding-bottom: 3%;
+}
+.press-logo{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+/* Pricing section */
+
+#pricing{
+    padding: 3% 5%;
+       
+}
+.pricing-text{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+.pricing-column{
+padding: 3% 5%;
+}
+
+
+/* Call to Action section */
+
+#cta{
+    background-color: #ff4c68;
+   
+}
+
+/* Footer section */
+
+.media-icons{
+    margin: 1.2rem;
+}
